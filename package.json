@@ -1,0 +1,33 @@
+{
+  "name": "smoldot-sleep-recovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "build": "esbuild --bundle src/main.ts --outdir=build --sourcemap --format=esm --platform=node --packages=external",
+    "start": "npm run build && node --enable-source-maps ./build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "esbuild": "^0.18.17",
+    "prettier": "^3.1.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@polkadot-api/json-rpc-provider-proxy": "0.0.1-6a8e1370da14dec9a2acd40c32dccc68e5bbe782.1.0",
+    "@polkadot-api/substrate-client": "0.0.1-6a8e1370da14dec9a2acd40c32dccc68e5bbe782.1.0",
+    "@polkadot-api/utils": "0.0.1-6a8e1370da14dec9a2acd40c32dccc68e5bbe782.1.0",
+    "scale-ts": "^1.4.2",
+    "smoldot": "^2.0.13"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "trailingComma": "all"
+  }
+}
