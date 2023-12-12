@@ -23,7 +23,7 @@
     "@polkadot-api/substrate-client": "0.0.1-6a8e1370da14dec9a2acd40c32dccc68e5bbe782.1.0",
     "@polkadot-api/utils": "0.0.1-6a8e1370da14dec9a2acd40c32dccc68e5bbe782.1.0",
     "scale-ts": "^1.4.2",
-    "smoldot": "^2.0.13"
+    "smoldot": "^2.0.14"
   },
   "prettier": {
     "printWidth": 80,

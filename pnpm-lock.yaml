@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.4.2
     version: 1.4.2
   smoldot:
-    specifier: ^2.0.13
-    version: 2.0.13
+    specifier: ^2.0.14
+    version: 2.0.14
 
 devDependencies:
   '@types/node':
@@ -293,8 +293,8 @@ packages:
     resolution: {integrity: sha512-WTS1myYKhrNKzGCmQ434LkDGfgppcGUHCdpl1baH2jEu2Ow8al+llw5vOKO4Tk1/Y58+TfriReMtGV/07VMGmg==}
     dev: false
 
-  /smoldot@2.0.13:
-    resolution: {integrity: sha512-B+hqMuMbvsEBC7zBdlD7jCmui3eMIWVOK3gDAyHT+qQdO3mm5kUNgl5z3hjGJ97w47ZnILkaPFI/gu4p9Yttzw==}
+  /smoldot@2.0.14:
+    resolution: {integrity: sha512-HA8uP0GjdKWbnDeetxi9RWIahBszgm7qWLBaWZY7UkdyNi4r1vIdr+sJ3v6WUMM4Dp7aAeq+9qrNiRnTH5qRhA==}
     dependencies:
       ws: 8.15.0
     transitivePeerDependencies:
